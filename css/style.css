@@ -1,0 +1,133 @@
+html{
+    background-color: #fcfcfc;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 170px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+.about{
+    margin-top: 0px;
+}
+a{
+    text-decoration-color: black;
+    color: black;
+}
+.myname{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-bottom: -10px;
+   /* background-color: white;
+    display: block;
+    width: 70%;
+    margin: 0 auto;*/
+}
+.myname a{
+    text-decoration: none;
+}
+.myname :hover{
+    color:#6c7a89;
+}
+.content{
+    /*background-color: white;*/
+}
+.topic{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card>h5{
+    margin-bottom: 4px;
+}
+.card{
+    margin-bottom: 20px;
+}
+.card img{
+    max-width:100%;
+    max-height:100%;
+}
+canvas{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    
+}
+.profilepic>img{
+     border-radius: 50%;
+}
+
+.profilepic{
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+.imgcontent{
+    max-width: 600px;
+}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+@media only screen and (max-width: 1024px) {
+    html{
+        font-size: 30px;
+    }
+    .container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .myname{
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+        margin-bottom: -10px;
+    }
+    .header{
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+    .card>h5{
+        font-size: 30px;
+    }
+    .topic{
+        margin-bottom: 90px;
+    }
+    .about{
+        margin-top: auto;
+        font-size: 16px;
+    }
+    .abouthome{
+        font-size: 40px;
+    }
+    .imgcontent{
+        max-width: 100%;
+    }
+    .profilepic>img{
+        width: 250px;
+    }
+}
+
+#myBtn {
+    width: 180px;
+    height: 80px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 40px;/*Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: solid 0px black; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 24px;
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+    color:white;
+}

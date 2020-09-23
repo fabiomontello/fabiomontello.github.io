@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Fabio Montello</title>
+        <meta name="description" content="Fabio Montello is a interactive graphic designer and a multimedia content creator." />
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <meta name="keywords" content="Fabio Montello,Fabio, Montello,fabio montello,interactive graphic design,multimedia content creator,processing,p5.js,d3.js,graphic design,data design,data designer,multimedia production,multimedia,multimedia design">
+        <meta name="robots" content="index,follow">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+       <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="../js/top.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108744533-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-108744533-1');
+        </script>
+        <style type="text/css">
+            svg {
+                border: solid 0px black;
+                display: block;
+                margin: 0 auto;
+                max-width: 1024px;
+                max-height: 468px;
+            }
+           svg path:hover{
+                stroke: #ffd400;
+                stroke-width: 2;
+            }
+            svg .axis,
+            svg .axis>line,{
+                stroke: grey;
+            }
+            a{
+                color:black;
+            }
+        </style>
+	</head>
+	<body>
+    <div>
+        <div class="header container">
+           <div class="myname"><h1><a href="../index.html">FABIO MONTELLO</a></h1></div>
+           <div class="about"><a href="../index.html">Portfolio</a> | <a href="../about.html">About</a></div>
+        </div>
+        <div class="content container">
+            <div class="topic"><h2>WORLD BIRTH RATE LINE CHART</h2></div>
+           
+            <div class="card">
+                <h5>DESCRIPTION</h5>
+                <p>The multiple line chart of world birth rate is the first of two visualization of world birth rate every 1000 people change from 1960 to 2015. Data source is <a href="http://databank.worldbank.org/data/home.aspx"> the World Bank</a>. This visualization is part of a set of data visualizations made as final project for the graduation exam.</p>
+                <br>
+                <script type="text/javascript" src="data/line.js"></script>
+            </div>
+        </div>
+    </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+	</body>
+</html>

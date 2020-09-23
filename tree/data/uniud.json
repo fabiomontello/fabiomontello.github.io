@@ -1,0 +1,259 @@
+[{
+"name":"uniud",
+"children":
+  [
+  {
+  "name": "Scientifica",
+  "children": [
+    {
+      "name": "Agraria",
+      "children": [
+        {
+          "name": "L",
+          "children": [
+                     {"corso": "Allevamento e salute alimentare"},
+                     {"corso": "Scienze agrarie"},
+                     {"corso": "Scienze e tecnologie alimentari"},
+                     {"corso": "Scienze per l'ambiente e la natura"},
+                     {"corso": "Viticultura ed enologia"}
+                    ]
+        },
+        {
+          "name": "LM",
+          "children": [
+                     {"corso": "Viticoltura, enologia e mercati vitivinicoli"},
+                     {"corso": "Scienze e tecnologie agrarie"},
+                     {"corso": "Scienze e tecnologie alimentari"},
+                     {"corso": "Scienze e tecnologie per l'ambiente e il territorio"},
+                     {"corso": "Nutrizione e risorse animali"},
+                     {"corso": "Allevamento e benessere animale"}
+                    ]
+        }
+      ]
+    },
+    
+    {
+      "name": "Biotecnologie",
+      "children": [
+        {
+          "name": "L",
+          "children": [
+                      {"corso": "Biotecnologie"}
+                    ]
+        },
+        {
+          "name": "LM",
+          "children": [
+                     {"corso": "Biotecnologie sanitarie"},
+                     {"corso": "Biotecnologie molecolari"}
+                    ]
+        }
+      ]
+    },
+    {
+      "name": "Ingegneria e Architettura",
+      "children": [
+        {
+          "name": "L",
+          "children": [
+                     {"corso": "Ingegneria civile"},
+                     {"corso": "Ingegneria elettronica"},
+                     {"corso": "Ingegneria gestionale"},
+                     {"corso": "Ingegneria meccanica"},
+                     {"corso": "Scienze dell'architettura"}
+                    ]
+        },
+        {
+          "name": "LM",
+          "children": [
+                     {"corso": "Ingegneria per l'ambiente e l'energia"},
+                     {"corso": "Ingegneria civile"},
+                     {"corso": "Ingegneria per l'ambiente e il territorio"},
+                     {"corso": "Ingegneria elettronica"},
+                     {"corso": "Ingegneria gestionale"},
+                     {"corso": "Ingegneria meccanica"},
+                     {"corso": "architettura"}
+                    ]
+        },
+        {
+          "name": "LCU",
+          "children": [
+                     {"corso": "architettura"}
+                    ]
+        }
+      ]
+    }, 
+    {
+      "name": "Scienze Matematiche, Informatiche, Multimediali e Fisiche",
+      "children": [
+        {
+          "name": "L",
+          "children": [
+                     {"corso": "Informatica"},
+                     {"corso": "Internet of things, Big Data & Web"},
+                     {"corso": "Matematica"},
+                     {"corso": "Scienze e tecnologie multimediali"}
+                    ]
+        },
+        {
+          "name": "LM",
+          "children": [
+                     {"corso": "Data Science and Scientific Computing"},
+                     {"corso": "Fisica"},
+                     {"corso": "Informatica"},
+                     {"corso": "Computer Science"},
+                     {"corso": "Matematica"},
+                     {"corso": "Comunicazione multimediale e tecnologie dell'informazione"}
+                    ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Umanistica e della formazione",
+  "children": [
+    {
+      "name": "Lingue, comunicazione e formazione",
+      "children": [
+        {
+          "name": "L",
+          "children": [
+                     {"corso": "Allevamento e salute alimentare"},
+                     {"corso": "Scienze agrarie"},
+                     {"corso": "Scienze e tecnologie alimentari"},
+                     {"corso": "Scienze per l'ambiente e la natura"},
+                     {"corso": "Viticultura ed enologia"}
+                    ]
+        },
+        {
+          "name": "LM",
+          "children": [
+                     {"corso": "Viticoltura, enologia e mercati vitivinicoli"},
+                     {"corso": "Scienze e tecnologie agrarie"},
+                     {"corso": "Scienze e tecnologie alimentari"},
+                     {"corso": "Scienze e tecnologie per l'ambiente e il territorio"},
+                     {"corso": "Nutrizione e risorse animali"},
+                     {"corso": "Allevamento e benessere animale"}
+                    ]
+        },
+        {
+          "name": "LCU",
+          "children": [
+                     {"corso": "Scienze della formazione primaria"}
+                    ]
+        }
+      ]
+    },
+    
+    {
+      "name": "Lettere e beni culturali",
+      "children": [
+        {
+          "name": "L",
+          "children": [
+                      {"corso": "Beni culturali"},
+                      {"corso": "DAMS - Discipline dell'audiovisivo, dei media e dello spettacolo"},
+                      {"corso": "Lettere"},
+                      {"corso": "Scienze e tecniche del turismo culturale"}
+                    ]
+        },
+        {
+          "name": "LM",
+          "children": [
+                     {"corso": "Filosofia"},
+                     {"corso": "Gestione del turismo culturale e degli eventi"},
+                     {"corso": "Italianistica"},
+                     {"corso": "Scienze del patrimonio audiovisivo e dei nuovi media"},
+                     {"corso": "Scienze dell'antichità: archeologia, storia, letteratura"},
+                     {"corso": "Storia dell'arte e conservazione dei beni storico-artistici"},
+                     {"corso": "Studi storici dal medioevo all'età contemporanea"}
+                    ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Economico-giuridica",
+  "children": [
+    {
+      "name": "Economia",
+      "children": [
+        {
+          "name": "L",
+          "children": [
+                     {"corso": "Banca e finanza"},
+                     {"corso": "Economia aziendale"},
+                     {"corso": "Economia e commercio"}
+                    ]
+        },
+        {
+          "name": "LM",
+          "children": [
+                      {"corso": "Banca e finanza"},
+                      {"corso": "Economia aziendale"},
+                      {"corso": "Economics - Scienze economiche"}
+                    ]
+        }
+      ]
+    },
+    
+    {
+      "name": "Giurisprudenza",
+      "children": [
+        {
+          "name": "L",
+          "children": [
+                      {"corso": "Diritto per le imprese e le istituioni"}
+                    ]
+        },
+        {
+          "name": "LCU",
+          "children": [
+                     {"corso": "Giurisprudenza"}
+                    ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Medica",
+  "children": [
+    {
+      "name": "Medicina",
+      "children": [
+        {
+          "name": "L",
+          "children": [
+                     {"corso": "Educazione professionale"},
+                     {"corso": "Fisioterapia"},
+                     {"corso": "Infermieristica"},
+                     {"corso": "Ostetricia"},
+                     {"corso": "Scienze motorie"},
+                     {"corso": "Tecniche della prevenzione nell'ambiente e nei luoghi di lavoro"},
+                     {"corso": "Tecniche di lavoro biometrico"},
+                     {"corso": "Tecniche di radiologia medica per immagini e radioterapia"}
+                    ]
+        },
+        {
+          "name": "LM",
+          "children": [
+                      {"corso": "Scienze dello sport"}
+                    ]
+        },
+        {
+          "name": "LCU",
+          "children": [
+                      {"corso": "Medicina e chirurgia"}
+                    ]
+        }
+      ]
+    }
+  ]
+ }
+]
+}
+]
+

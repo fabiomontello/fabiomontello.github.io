@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Fabio Montello</title>
+        <meta name="description" content="Fabio Montello is a interactive graphic designer and a multimedia content creator." />
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <meta name="keywords" content="Fabio Montello,Fabio, Montello,fabio montello,interactive graphic design,multimedia content creator,processing,p5.js,d3.js,graphic design,data design,data designer,multimedia production,multimedia,multimedia design">
+        <meta name="robots" content="index,follow">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+        <script src="../js/top.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108744533-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-108744533-1');
+        </script>
+        <style>          
+            .steamgraph--selected {
+                opacity: 1.0;
+            }
+
+            .steamgraph--deselected {
+                opacity: 0.5;
+            }
+        </style>
+	</head>
+	<body>
+    <div>
+        <div class="header container">
+           <div class="myname"><h1><a href="../index.html">FABIO MONTELLO</a></h1></div>
+           <div class="about"><a href="../index.html">Portfolio</a> | <a href="../about.html">About</a></div>
+        </div>
+        <div class="content container">
+            <div class="topic"><h2>FLOODGATE ANALYTICS</h2></div>
+           
+            <div class="card">
+                <h5>DESCRIPTION</h5>
+                <p>This serie of charts has been designed and developed for <a href="https://www.floodgateapp.com/">Floodgate app</a>. The target of the work was to redesign the old analytic page of the web app in a new way. The aim was to let the final user explore all the data collected, with a simple and enjoyable user experience, but at the same time with effective visualizations that show a concrete overview of his work. All the data presented here is mock for example porpouses only.<br> Here some widgets:</p>
+            </div>
+            <div id="divContentAgeAmountScale" style="background-color: #262626; margin: 0 auto; width:75%;">
+                <script src="data/ageamountscale.js"></script>
+                <script>
+                    ageamountscale(false, "#divContentAgeAmountScale") //paddingToggle, ID
+                </script>
+                
+            </div>
+            <p>The first chart is showing how users of different age ranges choose different categories of payment. A mouseover let the user see the actual values of the shape selected, meanwhile clicking on the coloured dots over the range, is possible to select/deselect a shape. </p>
+            <br>
+                        
+            <div style="color: white; display: block;  background-color: #262626; ">
+                <div style="color: white; width: 49%; display: inline-block;">
+                    <div class="panel-content divPadding" style="padding: 30px;">
+                        <div id="leftContentHour">
+                            <script src="data/breif.js"></script>
+                            <script> 
+                                breif(true, "#leftContentHour",'data/hours.json', '#3D73A2', 'number of hours', 0); //paddingToggle, ID, incrementMargin,Top
+                            </script>
+                        </div>
+                    </div> 
+                </div>
+                <div style="color: white; display: inline-block; width: 49%; ">
+                    <div class="panel-content divPadding"  style="padding: 30px;">
+                        <div id="rightContentRate">
+                            <script src="data/breif.js"></script>
+                            <script> 
+                                breif(true, "#rightContentRate",'data/rate.json', '#C0544E', 'rate per hour', 2); //paddingToggle, ID, incrementMargin,Top
+                            </script>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+            <p>The second visualization had to show directly the number of hours worked and the rate per hour (signs per hour), having as well a direct preview of the trend over the previous 7 weeks. </p>
+            <br>
+            <div id="contentAnalyticTotalRevenue" style="background-color: #262626; margin: 0 auto;">
+                <script src="data/totalRevenue.js"></script>
+                <script> totalRevenue(false, "#contentAnalyticTotalRevenue", "#labelAnalitycs")</script>
+            </div>
+            <p>The third chart need to show the daily amount earn for each campaign and the sum of the campaigns' amounts. The visualization is interactive in different ways: a mouse over let us see the total of a single day, while scrolling with the wheel over the path we have the possibility to see the graph changing over time. It's possible to activate/disactivate every path just by clicking on it. The day amount and the trend will be automatically recalculated.  </p>
+            <br>
+            <br>
+
+        </div>
+
+    </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+	</body>
+</html>

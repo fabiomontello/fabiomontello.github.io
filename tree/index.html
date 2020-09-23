@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Fabio Montello</title>
+        <meta name="description" content="Fabio Montello is a interactive graphic designer and a multimedia content creator." />
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <meta name="keywords" content="Fabio Montello,Fabio, Montello,fabio montello,interactive graphic design,multimedia content creator,processing,p5.js,d3.js,graphic design,data design,data designer,multimedia production,multimedia,multimedia design">
+        <meta name="robots" content="index,follow">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src="js/top.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="../js/top.js"></script>
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108744533-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-108744533-1');
+        </script>
+
+        <style>
+            svg{
+                font-family: sans-serif;
+            }
+            path{
+                fill: none;
+                stroke: black;
+            }
+            .text--leaf:hover{
+                font-size: 15px;
+                font-weight: bolder;
+                cursor: none;
+            }
+            .active{
+                fill: black;
+                stroke: black;
+            }
+            .green{
+                fill: green;
+                stroke: green;
+            }
+            .node--leaf > circle{
+                fill: grey;
+                stroke: grey;
+            }
+            #infobox{
+                width: 200px;
+                position: absolute;
+                float: left;
+                margin: 20px 0 10px 10px;
+                border: 0px solid black;
+                padding: 10px;
+                border-radius: 8px;
+                z-index: 2;
+            }
+            #infobox>div{
+                font-size: 20px;
+                text-align: center;
+                width: 100%;
+            }
+            #infobox>span{
+                font-size: 15px;
+                text-align: right;
+                width: 100%;
+                float: right;
+                margin-bottom: 10px;
+                font-weight:100;
+            }
+            #infobox > .title{
+                margin-bottom: 4px;
+                font-size: 14px;
+                text-align: left;
+                font-weight: bolder;
+            }
+            
+        </style>
+	</head>
+	<body>
+        <div class="header container">
+           <div class="myname"><h1><a href="../index.html">FABIO MONTELLO</a></h1></div>
+           <div class="about"><a href="../index.html">Portfolio</a> | <a href="../about.html">About</a></div>
+        </div>
+        <div class="content container">
+            <div class="topic"><h2>HIERARCHICAL TREE</h2></div>
+           
+            <div class="card">
+                <h5>DESCRIPTION</h5>
+                <p>The hieratchical tree of university's courses is a visualization showing the whole set of courses at the university of Udin, differentiated by area. Data is getted from <a href="https://www.uniud.it/it/didattica/corsi-offerta"> Udin university's website</a>. This visualization is part of a set of data visualizations made as final project for the graduation exam.</p>
+                <br>
+                <script type="text/javascript" src="data/tree.js"></script>
+            </div>
+           <!-- <div id="infobox">
+                <div>Università di Udine</div>
+                <br>
+                <div class="title">Area </div><span id="area"></span>
+                <hr>
+                <div class="title">Dipartimento</div> <span id="dipartimento"></span>
+                <hr>
+                <div class="title">Tipologia </div><span id="tipo"></span>
+                <hr>
+                <div class="title">Facoltà </div><span id="facolta"></span>
+            </div>-->
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+	</body>
+</html>
