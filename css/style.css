@@ -18,6 +18,11 @@ html{
 .about{
     margin-top: 0px;
 }
+.about a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 a{
     text-decoration-color: black;
     color: black;
